@@ -8,5 +8,5 @@ spec:
   resources:
     requests:
       storage: 5Gi
-  storageClassName: gp2
+  storageClassName: ocs-storagecluster-ceph-rbd
   volumeMode: Filesystem
