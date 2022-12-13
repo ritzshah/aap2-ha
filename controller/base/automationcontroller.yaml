@@ -4,6 +4,8 @@ metadata:
   name: controller
   annotations:
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
+  labels:
+    app: aap2-ctrl    
 spec:
   create_preload_data: true
   route_tls_termination_mechanism: Edge
